@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthline Pharmacy | Trusted Pharmacy & Free Delivery in Brampton, ON</title>
+  <meta name="description" content="Healthline Pharmacy in Brampton, ON offers prescription dispensing, free local delivery, blister packaging, MedsCheck, and travel health consultations. Call 905-458-9000.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.healthlinepharmacy.ca/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Healthline Pharmacy | Brampton Community Pharmacy">
+  <meta property="og:description" content="Dedicated community pharmacy in Brampton, Ontario. Offering free prescription delivery, blister packaging, MedsCheck reviews, and travel health support.">
+  <meta property="og:url" content="https://www.healthlinepharmacy.ca/">
+  <meta property="og:site_name" content="Healthline Pharmacy">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Healthline Pharmacy | Brampton, ON">
+  <meta name="twitter:description" content="Personalized pharmacy services, free prescription delivery, and travel health consultations in Brampton, Ontario.">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Pharmacy",
+    "name": "Healthline Pharmacy",
+    "image": "https://www.healthlinepharmacy.ca/og-image.jpg",
+    "telephone": "+1-905-458-9000",
+    "faxNumber": "+1-905-458-9070",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "150 Yellow Avens Blvd #3",
+      "addressLocality": "Brampton",
+      "addressRegion": "ON",
+      "postalCode": "L6R 0M5",
+      "addressCountry": "CA"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "14:00"
+      }
+    ],
+    "priceRange": "$$",
+    "url": "https://www.healthlinepharmacy.ca/"
+  }
+  </script>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top Emergency & Info Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span>📍 Serving Brampton at 150 Yellow Avens Blvd #3</span>
+      <span>☎️ Direct Line: <a href="tel:+19054589000">905-458-9000</a></span>
+      <span>📦 Free Local Prescription Delivery</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Healthline Pharmacy Home">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+          <rect width="36" height="36" rx="8" fill="#024B40"/>
+          <path d="M18 8V28M8 18H28" stroke="#00C9A7" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text">Healthline <span>Pharmacy</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="products.html" class="nav-link">Products</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-group">
+        <a href="tel:+19054589000" class="btn btn-primary btn-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Pharmacy
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle Navigation Menu">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay Backdrop -->
+  <div class="mobile-overlay" id="mobile-overlay" aria-hidden="true"></div>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu-header">
+      <span class="brand-text">Healthline <span>Pharmacy</span></span>
+      <button class="mobile-close" id="mobile-close" aria-label="Close Navigation Menu">&times;</button>
+    </div>
+    <nav aria-label="Mobile Navigation">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+        <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+        <li><a href="products.html" class="mobile-nav-link">Products</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="tel:+19054589000" class="btn btn-primary btn-block">Call 905-458-9000</a>
+      <p class="mobile-hours-text">Mon–Fri: 9am–5pm | Sat: 9am–2pm</p>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="badge-dot"></span> Personalized Canadian Healthcare
+          </div>
+          <h1 class="hero-title">Your Local Pharmacy, Focused on Your Care.</h1>
+          <p class="hero-subtitle">
+            Providing reliable prescription dispensing, customized medication packaging, travel health consultations, and free prescription delivery across Brampton, Ontario.
+          </p>
+          <div class="hero-actions">
+            <a href="tel:+19054589000" class="btn btn-primary btn-lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call 905-458-9000
+            </a>
+            <a href="https://maps.google.com/?q=150+Yellow+Avens+Blvd+%233,+Brampton,+ON+L6R+0M5,+Canada" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+              Get Directions
+            </a>
+          </div>
+          <div class="hero-quick-info">
+            <div class="info-item">
+              <strong>Location:</strong> 150 Yellow Avens Blvd #3, Brampton
+            </div>
+            <div class="info-item">
+              <strong>Hours:</strong> Mon–Fri 9am–5pm, Sat 9am–2pm
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card-graphic">
+            <svg class="hero-svg-illustration" viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Healthcare Illustration">
+              <rect width="400" height="320" rx="16" fill="#F0F7F5"/>
+              <circle cx="200" cy="140" r="80" fill="#024B40" opacity="0.08"/>
+              <path d="M160 140H240M200 100V180" stroke="#024B40" stroke-width="12" stroke-linecap="round"/>
+              <rect x="80" y="220" width="240" height="50" rx="8" fill="#FFFFFF" stroke="#00C9A7" stroke-width="2"/>
+              <text x="200" y="250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="14" font-weight="600" fill="#024B40" text-anchor="middle">Community Pharmacy Excellence</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust / Value Bar -->
+    <section class="trust-bar-section">
+      <div class="container trust-grid">
+        <div class="trust-card">
+          <div class="trust-icon">🚚</div>
+          <div class="trust-text">
+            <h3>Free Prescription Delivery</h3>
+            <p>Convenient, direct delivery to your home in Brampton.</p>
+          </div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">💊</div>
+          <div class="trust-text">
+            <h3>Blister & Pill Packaging</h3>
+            <p>Organized dosing to help manage daily medications safely.</p>
+          </div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">📋</div>
+          <div class="trust-text">
+            <h3>MedsCheck Consultations</h3>
+            <p>One-on-one professional reviews of your prescribed drugs.</p>
+          </div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">✈️</div>
+          <div class="trust-text">
+            <h3>Travel Health Support</h3>
+            <p>Pre-travel advice and immunization support for safe trips.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="grid grid-2 align-center">
+          <div>
+            <span class="section-tag">About Our Pharmacy</span>
+            <h2>Dedicated to the Brampton Community</h2>
+            <p class="lead-text">Healthline Pharmacy provides accessible, patient-centered pharmaceutical care built on clarity, reliability, and clinical guidance.</p>
+            <p>Located at 150 Yellow Avens Blvd #3, we assist individuals and families with accurate prescription dispensing, medication organization, chronic disease prevention support, and safe disposal services. Our goal is to make managing your medication simple and stress-free.</p>
+            <div class="spacer-sm"></div>
+            <a href="about.html" class="btn btn-outline">Learn More About Us &rarr;</a>
+          </div>
+          <div class="card card-accent-border">
+            <h3>Pharmacy Operations</h3>
+            <ul class="feature-list">
+              <li><strong>Exact Location:</strong> Brampton, Ontario (L6R 0M5)</li>
+              <li><strong>Direct Phone:</strong> 905-458-9000</li>
+              <li><strong>Secure Fax:</strong> 905-458-9070</li>
+              <li><strong>Weekday Hours:</strong> Monday – Friday: 9:00 AM – 5:00 PM</li>
+              <li><strong>Weekend Hours:</strong> Saturday: 9:00 AM – 2:00 PM</li>
+              <li><strong>Sunday:</strong> Closed</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Services Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Comprehensive Care</span>
+          <h2>Our Verified Pharmacy Services</h2>
+          <p class="section-desc">Professional healthcare solutions tailored to your individual health requirements.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-card-icon">💊</div>
+            <h3>Prescription Dispensing</h3>
+            <p>Accurate, timely prescription fulfillment with detailed guidance on dosage, potential interactions, and side effects.</p>
+            <a href="services.html#prescription-dispensing" class="card-link">Service Details &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-icon">🚚</div>
+            <h3>Free Prescription Delivery</h3>
+            <p>Have your essential prescriptions delivered directly to your doorstep in Brampton at no extra charge.</p>
+            <a href="services.html#free-delivery" class="card-link">Service Details &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-icon">📦</div>
+            <h3>Blister Packaging & Pill Organizers</h3>
+            <p>Custom compliance packaging and pill organizers designed to streamline complex daily medication schedules.</p>
+            <a href="services.html#blister-packaging" class="card-link">Service Details &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-icon">📝</div>
+            <h3>MedsCheck Medication Reviews</h3>
+            <p>Dedicated consultations with our pharmacist to review your complete medication regimen and answer questions.</p>
+            <a href="services.html#medscheck" class="card-link">Service Details &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-icon">✈️</div>
+            <h3>Travel Health & Immunization</h3>
+            <p>Pre-travel health advice and vaccination support to prepare you for international travel safely.</p>
+            <a href="services.html#travel-health" class="card-link">Service Details &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-icon">♻️</div>
+            <h3>Sharps & Medication Disposal</h3>
+            <p>Safe, environmentally responsible disposal programs for expired medications and used medical sharps.</p>
+            <a href="services.html#safe-disposal" class="card-link">Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <div class="text-center spacer-md">
+          <a href="services.html" class="btn btn-primary">View All 13 Healthcare Services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Travel Health Banner -->
+    <section class="section bg-primary text-white">
+      <div class="container text-center max-width-700">
+        <span class="badge-pill bg-white-10 text-white">Planning International Travel?</span>
+        <h2 class="text-white">Pre-Travel Health Advice & Vaccination Support</h2>
+        <p class="text-white-80">Get tailored advice on destination health risks, immunization requirements, and travel health supplies before you trip. Contact our Brampton pharmacy to confirm vaccination requirements and schedule your consultation.</p>
+        <div class="spacer-sm"></div>
+        <a href="tel:+19054589000" class="btn btn-secondary btn-lg">Call 905-458-9000 to Inquire</a>
+      </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="grid grid-2">
+          <div>
+            <span class="section-tag">Visit Us In Brampton</span>
+            <h2>Easy Access & Convenient Parking</h2>
+            <p>Healthline Pharmacy is located on Yellow Avens Blvd, serving Brampton residents with accessible care and prompt service.</p>
+            
+            <div class="contact-info-block">
+              <div class="info-line">
+                <strong>Address:</strong><br>
+                150 Yellow Avens Blvd #3, Brampton, ON L6R 0M5, Canada
+              </div>
+              <div class="info-line">
+                <strong>Telephone:</strong> <a href="tel:+19054589000">905-458-9000</a>
+              </div>
+              <div class="info-line">
+                <strong>Fax:</strong> <a href="tel:+19054589070">905-458-9070</a>
+              </div>
+            </div>
+
+            <div class="spacer-sm"></div>
+            <a href="https://maps.google.com/?q=150+Yellow+Avens+Blvd+%233,+Brampton,+ON+L6R+0M5,+Canada" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Open Google Maps Directions
+            </a>
+          </div>
+
+          <div class="card">
+            <h3>Store Operating Hours</h3>
+            <table class="hours-table">
+              <tr><td>Monday</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr><td>Tuesday</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr><td>Wednesday</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr><td>Thursday</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr><td>Friday</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr><td>Saturday</td><td>9:00 AM – 2:00 PM</td></tr>
+              <tr><td>Sunday</td><td><span class="badge-closed">Closed</span></td></tr>
+            </table>
+            <div class="disclaimer-box spacer-sm">
+              <small>Note: Hours may vary on statutory Canadian holidays. Please phone ahead to confirm holiday scheduling.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Medical Disclaimer -->
+    <section class="disclaimer-section">
+      <div class="container">
+        <p><strong>Medical Disclaimer:</strong> Information provided on this website is for general informational purposes only and does not constitute professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions you may have regarding a medical condition or prescription medication.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <span class="brand-text text-white">Healthline <span>Pharmacy</span></span>
+        <p>Your trusted community pharmacy in Brampton, Ontario. Committed to accessible care, prescription support, and reliable health guidance.</p>
+        <p class="copyright-text">&copy; <span id="current-year"></span> Healthline Pharmacy. All rights reserved.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Pharmacy Services</a></li>
+          <li><a href="products.html">Health Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal & Policy</h4>
+        <ul class="footer-links">
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <address class="footer-address">
+          150 Yellow Avens Blvd #3<br>
+          Brampton, ON L6R 0M5<br>
+          Canada<br><br>
+          Phone: <a href="tel:+19054589000">905-458-9000</a><br>
+          Fax: <a href="tel:+19054589070">905-458-9070</a>
+        </address>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+  <script src="animations.js" defer></script>
+</body>
+</html>
